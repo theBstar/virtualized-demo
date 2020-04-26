@@ -28,7 +28,7 @@ export default function VirtualList({ items }) {
       </List>
 
     ),
-    [items],
+    [items, listItem],
   );
 
   return (
